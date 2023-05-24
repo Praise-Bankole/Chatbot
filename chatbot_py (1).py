@@ -41,7 +41,7 @@ nltk.download('omw-1.4')
 
 
 # Read in dataset
-with open('Dataset/Bot_text.txt', 'r',  encoding='utf8', errors='ignore') as file:
+with open('Bot_text.txt', 'r',  encoding='utf8', errors='ignore') as file:
     dataset = file.read()
 
 # Here, the Next step is tokenize our text dataset.
